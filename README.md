@@ -1,6 +1,6 @@
 ---
 tags: [已阅]
-date: 2026-09-22
+date: 2026-09-28
 ---
 
 # 量潮实训
@@ -13,7 +13,7 @@ date: 2026-09-22
 
 1. [了解量潮科技](https://strategy.quanttide.com/)
 2. [量潮科技代码仓库](https://github.com/quanttide)
-2. [了解实训基地](./docs/bylaw/实训基地章程.md)
+2. [了解实训基地](./docs/bylaw/index.md)
 3. [实训基地代码仓库](https://github.com/quanttide-academy/quanttide-academy)
 3. 学习 Markdown 语法（未写入 
 4. [学习 Git 工作流（待完善）](./docs/tutorial/git-workflow.md)
@@ -43,7 +43,7 @@ quanttide-training/
 ├── .gitignore
 ├── docs/
 │   ├── bylaw/
-│   │   └── 实训基地章程.md            # 工作章程
+│   │   └── index.md                 # 工作章程
 │   ├── handbook/
 │   │   └── co-guide.md              # 协作流程
 │   ├── specification/

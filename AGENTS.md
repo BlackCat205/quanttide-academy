@@ -18,7 +18,7 @@ quanttide-training/
 ├── .gitignore
 ├── docs/                              # 程序型记忆
 │   ├── bylaw/                         # Bylaw（工作章程）
-│   │   └── 实训基地章程.md
+│   │   └── index.md
 │   ├── handbook/                      # Handbook（工作手册）
 │   │   └── co-guide.md
 │   ├── specification/                 # Specification（工程标准）
@@ -32,7 +32,7 @@ quanttide-training/
 ```
 
 - `README.md`：阅读与跳转入口
-- `docs/bylaw/实训基地章程.md`：实训基地章程
+- `docs/bylaw/index.md`：实训基地工作章程
 - `docs/specification/repo-naming.md`：命名与落点的唯一契约
 - `docs/handbook/co-guide.md`：完整协作流程
 - `roadmap.md`：当前可领取的任务清单
