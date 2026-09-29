@@ -1,6 +1,6 @@
 ---
 tags: [已阅]
-date: 2026-09-28
+date: 2026-09-30
 ---
 
 # 量潮实训
@@ -15,12 +15,12 @@ date: 2026-09-28
 2. [量潮科技代码仓库](https://github.com/quanttide)
 2. [了解实训基地](./docs/bylaw/index.md)
 3. [实训基地代码仓库](https://github.com/quanttide-academy/quanttide-academy)
-3. 学习 Markdown 语法（未写入 
+3. 学习 Markdown 语法（未写入）
 4. [学习 Git 工作流（待完善）](./docs/tutorial/git-workflow.md)
 5. 学习如何使用 Cursor（未写入）
 6. 明确本仓库结构
    - [仓库结构](#仓库结构)
-   - [仓库命名规范](./docs/specification/repo-naming.md)
+   - [命名规范](./docs/specification/second-brain.md)
 7. [如何领取任务](./roadmap.md) 
 8. [如何发布任务](./docs/handbook/co-guide.md#发布任务)
 9. [完整协作流程（待打磨）](./docs/handbook/co-guide.md)
@@ -36,7 +36,7 @@ date: 2026-09-28
 ## 仓库结构
 
 ```text
-quanttide-training/
+quanttide-academy/
 ├── README.md                        # 人类阅读入口
 ├── AGENTS.md                        # AI 工作指南
 ├── roadmap.md                       # 任务清单
@@ -47,11 +47,10 @@ quanttide-training/
 │   ├── handbook/
 │   │   └── co-guide.md              # 协作流程
 │   ├── specification/
-│   │   ├── repo-naming.md           # 仓库命名规范
-│   │   └── roadmap-template.md      # 任务清单规范
+│   │   ├── bylaw.md                 # 章程写作章程
+│   │   ├── roadmap.md               # 任务清单模板
+│   │   └── second-brain.md          # 命名规范
 │   └── tutorial/
 │       └── git-workflow.md          # Git 工作流
-└── .agent/                          # 可复用工具
-    └── md-writer/
-        └── SKILL.md
+└── .agent/                          # skill
 ```
