@@ -29,11 +29,11 @@ quanttide-academy/
 │       └── git-workflow.md
 └── .agent/                            # Toolkit（工作所需 skill 与脚本）
     └── skills/
-        ├── agents-writer/
+        ├── agents-editor/
         │   └── SKILL.md
         ├── markdown-editor/
         │   └── SKILL.md
-        └── pr-writer/
+        └── pr-editor/
             └── SKILL.md
 ```
 

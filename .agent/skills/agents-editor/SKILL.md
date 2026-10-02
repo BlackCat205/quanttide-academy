@@ -1,5 +1,5 @@
 ---
-name: agents-writer
+name: agents-editor
 description: 撰写、更新、重构 AGENTS.md 时使用。先通读项目全部文件，判断项目类型（代码 / 文档 / 混合），再按模板逐节生成：必填节直接写，选填节先问用户，无法确认的留占位。不用于 README、CHANGELOG、skill 正文或其他文档。
 ---
 

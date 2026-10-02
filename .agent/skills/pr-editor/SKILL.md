@@ -1,5 +1,5 @@
 ---
-name: pr-writer
+name: pr-editor
 description: 撰写 PR 标题与描述时使用。读分支上的 commit 归纳改动，写一句话标题和三段描述（摘要 / 改动 / 验证）。不用于 commit message、Issue 正文、CHANGELOG，也不用于合并、审批、改仓库设置等操作。
 ---
 
@@ -22,7 +22,7 @@ description: 撰写 PR 标题与描述时使用。读分支上的 commit 归纳�
 
 示例：
 
-- 新增 agents-writer 与 pr-writer 两个 skill
+- 新增 agents-editor 与 pr-editor 两个 skill
 - 修复日卡日期与星期错位
 
 ## 描述
