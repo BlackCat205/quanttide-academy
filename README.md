@@ -13,17 +13,16 @@ date: 2026-10-10
 
 1. [了解量潮科技](https://strategy.quanttide.com/)
 2. [量潮科技代码仓库](https://github.com/quanttide)
-2. [了解实训基地](./docs/bylaw/index.md)
-3. [实训基地代码仓库](https://github.com/quanttide-academy/quanttide-academy)
-3. 学习 Markdown 语法（未写入）
-4. [学习 Git 工作流（待完善）](./docs/tutorial/git-workflow.md)
-5. 学习如何使用 Cursor（未写入）
-6. 明确本仓库结构
+3. [了解实训基地](./docs/bylaw/index.md)
+4. [实训基地代码仓库](https://github.com/quanttide-academy/quanttide-academy)
+5. 学习 Markdown 语法（未写入）
+6. [学习 Git 工作流（待完善）](./docs/tutorial/git-workflow.md)
+7. 学习如何使用 Grok Bot + Cursor（未写入）
+8. 明确本仓库结构
    - [仓库结构](#仓库结构)
    - [命名规范](./docs/specification/second-brain.md)
-7. [如何领取任务](./roadmap.md)
 
-也可以在 AI 的对话窗口复制粘贴如下提示词，快速理解学习本仓库内容：  
+也可以将本仓库作为上下文投喂给 AI，并在 AI 的对话窗口复制粘贴如下提示词，快速理解学习本仓库内容：  
 
 ```markdown
 你是一个资深的软件工程师，我是一个编程小白，基于本项目全部已有文件，带我一步步从工具下载、注册、乃至环境搭建，了解并熟悉这个项目，要求如下：
