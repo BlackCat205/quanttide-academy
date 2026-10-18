@@ -44,7 +44,6 @@ quanttide-academy/
 │   │   └── index.md                 # 工作章程
 │   ├── specification/
 │   │   ├── bylaw.md                 # 章程写作章程
-│   │   ├── roadmap.md               # 任务清单模板
 │   │   └── second-brain.md          # 命名规范
 │   └── tutorial/
 │       └── git-workflow.md          # Git 工作流
