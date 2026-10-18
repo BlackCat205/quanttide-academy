@@ -15,12 +15,22 @@ date: 2026-10-10
 2. [量潮科技代码仓库](https://github.com/quanttide)
 3. [了解实训基地及其工作章程](./docs/bylaw/index.md)
 4. [实训基地代码仓库](https://github.com/quanttide-academy/quanttide-academy)
-5. 学习 Markdown 语法（未写入）
-6. [学习 Git 工作流（待完善）](./docs/tutorial/git-workflow.md)
-7. 学习如何使用 Grok Bot + Cursor（未写入）
-8. 明确本仓库结构
+5. 明确本仓库结构
    - [仓库结构](#仓库结构)
    - [命名规范](./docs/specification/second-brain.md)
+6. 学会使用仓库工具：动手前让 AI 先读对应 skill 再执行
+
+   | **场景** | **skill** | **用途** |
+   | :-- | :-- | :-- |
+   | 写、改 Markdown 笔记 | [markdown-editor](./.agent/skills/markdown-editor/SKILL.md) | 统一排版格式 |
+   | 写、改 README | [readme-editor](./.agent/skills/readme-editor/SKILL.md) | 只改过期的节 |
+   | 写、改 AGENTS.md | [agents-editor](./.agent/skills/agents-editor/SKILL.md) | 模板与验收清单 |
+   | 新建或审核 skill | [create-skill](./.agent/skills/create-skill/SKILL.md) | skill 结构与写法 |
+   | 复杂任务需协作，提 PR 前沟通 | [issue-editor](./.agent/skills/issue-editor/SKILL.md) | 标题与正文模板 |
+   | Issue 沟通完成后提交代码 | [pr-editor](./.agent/skills/pr-editor/SKILL.md) | 标题与描述模板 |
+
+7. 学习如何使用 Grok Bot + Cursor（未写入）
+8. [学习 Git 工作流（待完善）](./docs/tutorial/git-workflow.md)
 
 也可以将本仓库作为上下文投喂给 AI，并在 AI 的对话窗口复制粘贴如下提示词，快速理解学习本仓库内容：  
 
