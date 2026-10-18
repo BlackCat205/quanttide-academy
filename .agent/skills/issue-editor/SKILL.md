@@ -1,6 +1,6 @@
 ---
 name: issue-editor
-description: 撰写 GitHub Issue 标题与正文时使用。在提 PR 前用 Issue 充分沟通需求，一个功能对应一个 Issue，按约定式格式写标题，写背景 / 目标 / 验收标准 / 关联四段正文。不用于 PR 描述（见 pr-editor）、commit message、roadmap.md 任务条目，也不用于关闭、指派、打标签等操作。
+description: 撰写 GitHub Issue 标题与正文时使用。在提 PR 前用 Issue 充分沟通需求，一个功能对应一个 Issue，按约定式格式写标题，写背景 / 目标 / 验收标准 / 关联四段正文。不用于 PR 描述（见 pr-editor）、commit message，也不用于关闭、指派、打标签等操作。
 ---
 
 # Issue 编辑
@@ -44,7 +44,7 @@ type 与 `pr-editor` 一致，只用 feat、fix、docs、style、refactor、perf
 
 ### 关联
 
-仅有相关 Issue、PR 或 roadmap.md 任务时写，没有就不写这段，如 `Related to #123`。
+仅有相关 Issue 或 PR 时写，没有就不写这段，如 `Related to #123`。
 ````
 
 ## 验收清单
@@ -56,7 +56,7 @@ type 与 `pr-editor` 一致，只用 feat、fix、docs、style、refactor、perf
 - [ ] 背景 2–3 句；Bug 已写复现步骤、期望结果与实际结果
 - [ ] 验收标准为复选框，每条可检查
 - [ ] 模板内各段大标题为三级标题
-- [ ] 关联仅在有相关 Issue、PR 或任务时写入
+- [ ] 关联仅在有相关 Issue 或 PR 时写入
 - [ ] 未编造用户未说出的需求或信息
 - [ ] 标题、段落、列表、代码块之间各留 1 个空行
 - [ ] 全文小于 150 行

@@ -36,7 +36,6 @@ date: 2026-10-10
 quanttide-academy/
 ├── README.md                        # 人类阅读入口
 ├── AGENTS.md                        # AI 工作指南
-├── roadmap.md                       # 任务清单
 ├── .gitignore
 ├── docs/
 │   ├── bylaw/

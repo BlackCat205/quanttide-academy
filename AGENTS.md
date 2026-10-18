@@ -18,7 +18,6 @@
 | 章程、组织架构、岗位职责 | [index.md](./docs/bylaw/index.md) | 第四章 组织架构与岗位职责 |
 | 沟通、周会 | [index.md](./docs/bylaw/index.md) | 第五章 工作生态（第二十条 沟通原则） |
 | 命名、目录、资产类型 | [second-brain.md](./docs/specification/second-brain.md) | 规则总览；资产分类；目录结构 |
-| 任务、领取任务 | [roadmap.md](./roadmap.md) | 日常任务；项目任务；待办库 |
 | 写章程 | [bylaw.md](./docs/specification/bylaw.md) | 第二章 文档结构 |
 | Git、PR | [git-workflow.md](./docs/tutorial/git-workflow.md) | 完整 PR 流程 |
 
@@ -32,7 +31,6 @@
 2. **命名契约**：仓库名和目录统一用小写英文、数字和连字符，资产类型只用标准名称
 3. **人机分入口**：README 面向人类阅读，AGENTS.md 面向 AI 执行，二者互不抄写
 4. **工具内置**：可复用 skill 放 `.agent/skills/`，Markdown 格式由 `markdown-editor` 统一
-5. **任务清单驱动**：多人异步协作通过 roadmap.md 领取任务，按评审员顺序评审
 
 ## 项目目录
 
@@ -40,7 +38,6 @@
 quanttide-academy/
 ├── README.md
 ├── AGENTS.md
-├── roadmap.md
 ├── .gitignore
 ├── docs/                              # 程序型记忆
 │   ├── bylaw/                         # Bylaw（工作章程）
@@ -61,7 +58,6 @@ quanttide-academy/
 | **文件** | **职能** |
 | :-- | :-- |
 | [second-brain.md](./docs/specification/second-brain.md) | 命名与目录规范，新增或改名路径的落点依据 |
-| [roadmap.md](./roadmap.md) | 任务清单，记录任务要求、执行员与评审员 |
 | [index.md](./docs/bylaw/index.md) | 实训基地工作章程 |
 | [markdown-editor](./.agent/skills/markdown-editor/SKILL.md) | 写、改 Markdown 笔记时的格式规范 |
 | [agents-editor](./.agent/skills/agents-editor/SKILL.md) | 撰写、重构本文时的模板与验收清单 |
@@ -93,7 +89,7 @@ quanttide-academy/
 - 发现明文凭据时停止写入，提醒用户轮换，不在回复中复述秘密内容
 - 用户明确要求时才提交或推送
 - 只改用户明确提到的工作范围内的文件；范围外的文件须先征得用户同意再改
-- 用户有决定权的内容（如 roadmap.md 的任务勾选与评审结论）禁止擅自修改或打勾
+- 用户有决定权的内容（如任务勾选与评审结论）禁止擅自修改或打勾
 
 ## 验证清单
 
