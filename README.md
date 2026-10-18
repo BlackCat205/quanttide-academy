@@ -13,7 +13,7 @@ date: 2026-10-10
 
 1. [了解量潮科技](https://strategy.quanttide.com/)
 2. [量潮科技代码仓库](https://github.com/quanttide)
-3. [了解实训基地](./docs/bylaw/index.md)
+3. [了解实训基地及其工作章程](./docs/bylaw/index.md)
 4. [实训基地代码仓库](https://github.com/quanttide-academy/quanttide-academy)
 5. 学习 Markdown 语法（未写入）
 6. [学习 Git 工作流（待完善）](./docs/tutorial/git-workflow.md)
