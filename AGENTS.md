@@ -50,7 +50,10 @@ quanttide-academy/
     └── skills/                        # Toolkit（工作所需 skill 与脚本）
         ├── agents-editor/             # 撰写、重构 AGENTS.md
         ├── create-skill/              # 编写、审核 skill
-        └── markdown-editor/           # Markdown 笔记规范
+        ├── issue-editor/              # 撰写 GitHub Issue
+        ├── markdown-editor/           # Markdown 笔记规范
+        ├── pr-editor/                 # 撰写 PR 标题与描述
+        └── readme-editor/             # 撰写、重构 README
 ```
 
 ## 关键文件
