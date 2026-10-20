@@ -1,6 +1,6 @@
 # 量潮实训
 
-本仓库存放量潮实训基地的文档（规章、工程规范）及可复用工具，承接实训基地的多人异步协作工作。  
+本仓库存放量潮实训基地的文档（规章、工程规范、教程）及可复用工具，承接实训基地的多人异步协作工作。  
 
 ## quick-start
 
@@ -47,6 +47,7 @@ quanttide-academy/
 │   │   └── index.md                 # 工作章程
 │   ├── specification/
 │   │   ├── bylaw.md                 # 章程写作章程
+│   │   ├── proposal.md              # 提案写作规范
 │   │   └── second-brain.md          # 命名规范
 │   └── tutorial/
 │       └── git-workflow.md          # Git 工作流

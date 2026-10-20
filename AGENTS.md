@@ -5,7 +5,7 @@
 
 ## 项目概述
 
-量潮实训基地的领域级第二大脑（`quanttide-academy`）。存放量潮实训基地的文档（规章、任务清单、工程规范）及可复用工具，承接实训基地的多人异步协作工作。  
+量潮实训基地的领域级第二大脑（`quanttide-academy`）。存放量潮实训基地的文档（规章、工程规范、教程）及可复用工具，承接实训基地的多人异步协作工作。  
 
 ## 相关文档
 
@@ -77,7 +77,7 @@ quanttide-academy/
 
 1. 理解需求：明确请求范围，只改被要求的文件
 2. 查契约：读 README 确认入口；新增或改名路径时，读 second-brain.md 确认落点
-3. 匹配技能：写笔记用 `markdown-editor`，改本文用 `agents-editor`，写 skill 用 `create-skill`，命中则先读再动手
+3. 匹配技能：写笔记用 `markdown-editor`，改 README 用 `readme-editor`，改本文用 `agents-editor`，写 skill 用 `create-skill`，写 Issue 用 `issue-editor`，写 PR 用 `pr-editor`，命中则先读再动手
 4. 检查现状：新建路径时，确认目标路径是否已存在，不预建未使用的目录
 5. 执行操作：skill 放 `.agent/skills/{skill 名}/`；已有正文用相对链接，不抄写
 6. 结构同步：改名或变更目录时，同一轮更新 README「仓库结构」、本文「项目目录」「快速定位」与内部链接
