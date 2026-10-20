@@ -20,6 +20,7 @@
 | 命名、目录、资产类型 | [second-brain.md](./docs/specification/second-brain.md) | 规则总览；资产分类；目录结构 |
 | 写章程 | [bylaw.md](./docs/specification/bylaw.md) | 第二章 文档结构 |
 | Git、PR | [git-workflow.md](./docs/tutorial/git-workflow.md) | 完整 PR 流程 |
+| 飞书、待办、群聊、watch、org | [AGENTS.md](./packages/quanttide-academy-toolkit/AGENTS.md) | 常见任务；工作流程 |
 
 ## 业务意图
 
@@ -43,10 +44,13 @@ quanttide-academy/
 │   ├── bylaw/                         # Bylaw（工作章程）
 │   ├── specification/                 # Specification（工程标准）
 │   └── tutorial/                      # Tutorial（工作教程）
+├── packages/                          # Toolkit（可复用工具包）
+│   └── quanttide-academy-toolkit/     # 实训基地工具箱（飞书工作流子模块）
 └── .agent/
     └── skills/                        # Toolkit（工作所需 skill 与脚本）
         ├── agents-editor/             # 撰写、重构 AGENTS.md
         ├── create-skill/              # 编写、审核 skill
+        ├── feishu-workflows/          # 飞书工作流引导
         ├── issue-editor/              # 撰写 GitHub Issue
         ├── markdown-editor/           # Markdown 笔记规范
         ├── pr-editor/                 # 撰写 PR 标题与描述
@@ -77,7 +81,7 @@ quanttide-academy/
 
 1. 理解需求：明确请求范围，只改被要求的文件
 2. 查契约：读 README 确认入口；新增或改名路径时，读 second-brain.md 确认落点
-3. 匹配技能：写笔记用 `markdown-editor`，改 README 用 `readme-editor`，改本文用 `agents-editor`，写 skill 用 `create-skill`，写 Issue 用 `issue-editor`，写 PR 用 `pr-editor`，命中则先读再动手
+3. 匹配技能：写笔记用 `markdown-editor`，改 README 用 `readme-editor`，改本文用 `agents-editor`，写 skill 用 `create-skill`，写 Issue 用 `issue-editor`，写 PR 用 `pr-editor`，飞书工作流用 `feishu-workflows`，命中则先读再动手
 4. 检查现状：新建路径时，确认目标路径是否已存在，不预建未使用的目录
 5. 执行操作：skill 放 `.agent/skills/{skill 名}/`；已有正文用相对链接，不抄写
 6. 结构同步：改名或变更目录时，同一轮更新 README「仓库结构」、本文「项目目录」「快速定位」与内部链接

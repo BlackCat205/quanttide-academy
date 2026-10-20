@@ -1,0 +1,3 @@
+[submodule "packages/quanttide-academy-toolkit"]
+	path = packages/quanttide-academy-toolkit
+	url = https://github.com/quanttide-academy/quanttide-academy-toolkit.git

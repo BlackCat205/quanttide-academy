@@ -23,6 +23,7 @@
    | 新建或审核 skill | [create-skill](./.agent/skills/create-skill/SKILL.md) | skill 结构与写法 |
    | 复杂任务需协作，提 PR 前沟通 | [issue-editor](./.agent/skills/issue-editor/SKILL.md) | 标题与正文模板 |
    | Issue 沟通完成后提交代码 | [pr-editor](./.agent/skills/pr-editor/SKILL.md) | 标题与描述模板 |
+   | 飞书群聊待办、人员跟踪与群管理 | [feishu-workflows](./.agent/skills/feishu-workflows/SKILL.md) | 飞书工作流接驳包 |
 
 7. 学习如何使用 Grok Bot + Cursor（未写入）
 8. [学习 Git 工作流（待完善）](./docs/tutorial/git-workflow.md)
@@ -51,5 +52,7 @@ quanttide-academy/
 │   │   └── second-brain.md          # 命名规范
 │   └── tutorial/
 │       └── git-workflow.md          # Git 工作流
+├── packages/
+│   └── quanttide-academy-toolkit/   # 实训基地工具箱（Git 子模块）
 └── .agent/                          # skill
 ```
